@@ -1,0 +1,40 @@
+.list{
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.list p{
+    padding : 20px;
+    position : relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.btndelete{
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 10px;
+   margin-top : 0px;
+   border-radius: 20px;
+   outline: none;
+   background-color: rgb(197, 138, 29);
+   color:white;
+
+}
+.list p input{
+    background-color: transparent;
+    border :0;
+    color: black;
+    font-size: 18px;
+
+}
+
+.list p input:focus{
+    outline: none;
+}
